@@ -11,3 +11,13 @@ C:\Users\Артем\Documents\Visual Studio 2015\Projects\WindowsFormsApplicatio
 C:\Users\Артем\Desktop\Новая папка\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
 C:\Users\Артем\Desktop\Новая папка\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
 C:\Users\Артем\Desktop\Новая папка\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Артем\Documents\Cock\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\Артем\Documents\Cock\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\Артем\Documents\Cock\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Артем\Documents\Cock\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Артем\Documents\Cock\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Артем\Documents\Cock\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Артем\Documents\Cock\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\Артем\Documents\Cock\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
+C:\Users\Артем\Documents\Cock\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Артем\Documents\Cock\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache

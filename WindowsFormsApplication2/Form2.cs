@@ -16,7 +16,7 @@ namespace WindowsFormsApplication2
         public Form2()
         {
             InitializeComponent();
-            StreamReader read = new StreamReader(@"C:\Users\Артем\Desktop\notconfirm.txt", Encoding.Default);
+            StreamReader read = new StreamReader(@"notconfirm.txt", Encoding.Default);
             string[] users = read.ReadToEnd().Split('.');
             string[] Solo = null;
             foreach (string i in users)
@@ -39,7 +39,7 @@ namespace WindowsFormsApplication2
 
         private void ConfirmUser_Click(object sender, EventArgs e)
         {
-            StreamWriter addtobase = new StreamWriter(@"C:\Users\Артем\Desktop\users.txt", true);
+            StreamWriter addtobase = new StreamWriter(@"users.txt", true);
             addtobase.Write(NotConfirmed.SelectedItems[0].SubItems[0].Text + "," + NotConfirmed.SelectedItems[0].SubItems[1].Text + "," + NotConfirmed.SelectedItems[0].SubItems[2].Text + ".");
             addtobase.Close();
             NotConfirmed.SelectedItems[0].Remove();
@@ -66,7 +66,7 @@ namespace WindowsFormsApplication2
 
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
         {
-            StreamWriter addtobase = new StreamWriter(@"C:\Users\Артем\Desktop\notconfirm.txt");
+            StreamWriter addtobase = new StreamWriter(@"notconfirm.txt");
             foreach (ListViewItem i in NotConfirmed.Items)
             {
                 addtobase.Write(i.SubItems[0].Text + "," + i.SubItems[1].Text + "," + i.SubItems[2].Text + ".");

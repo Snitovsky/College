@@ -21,7 +21,7 @@ namespace WindowsFormsApplication2
         {
             InitializeComponent();
             label4.Text = null;
-            StreamReader read = new StreamReader(@"C:\Users\Артем\Desktop\users.txt", Encoding.Default);
+            StreamReader read = new StreamReader(@"users.txt", Encoding.Default);
             string[] users = read.ReadToEnd().Split('.');
             string[] Solo=null;
             foreach (string i in users)
@@ -33,7 +33,7 @@ namespace WindowsFormsApplication2
                 }
                 Solo = null;
             }
-            StreamReader readbase = new StreamReader(@"C:\Users\Артем\Desktop\offerbase.txt", Encoding.Default);
+            StreamReader readbase = new StreamReader(@"offerbase.txt", Encoding.Default);
             string[] offers = readbase.ReadToEnd().Split('.');
             foreach (string i in offers)
             {
@@ -148,7 +148,7 @@ namespace WindowsFormsApplication2
             }
             else if(button2.Text=="Registrate")
             {
-                StreamWriter write = new StreamWriter(@"C:\Users\Артем\Desktop\notconfirm.txt", true);
+                StreamWriter write = new StreamWriter(@"notconfirm.txt", true);
                 write.Write(name.Text + "," + info.Text + "," + cost.Text + ".");
                 write.Close();
                 pictureBox.Visible = false;
@@ -234,7 +234,7 @@ namespace WindowsFormsApplication2
         }
         public void update()
         {
-            StreamWriter addtobase = new StreamWriter(@"C:\Users\Артем\Desktop\offerbase.txt");
+            StreamWriter addtobase = new StreamWriter(@"offerbase.txt");
             foreach (ListViewItem i in listView1.Items)
             {
                 addtobase.Write(i.SubItems[0].Text + "," + i.SubItems[1].Text + "," + i.SubItems[2].Text + "," + i.SubItems[3].Text+ "," + i.SubItems[4].Text +".");
